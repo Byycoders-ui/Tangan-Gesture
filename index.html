@@ -3,27 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hand Gesture Particle Control</title>
-    <!-- Menghubungkan file CSS eksternal -->
+    <title>Hand Gesture AVICENA</title>
     <link rel="stylesheet" href="style.css">
-    
-    <!-- Pustaka Three.js & MediaPipe Hands -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <div id="error-msg">⚠️ Kamera tidak terdeteksi atau izin akses kamera ditolak!<br>Mohon izinkan akses kamera pada browser Anda.</div>
-    
-    <div id="instruction">
-        <b>Panduan Gestur:</b><br>
-        🖐️ Tangan Terbuka: Awan Warna-warni<br>
-        ✊ Mengepal: Bola Padat Berputar<br>
-        ☝️ Telunjuk Saja: Teks "I LOVE YOU"<br>
-        ✌️ Dua Jari (Peace): Hati Merah
-    </div>
-
     <video id="webcam" autoplay playsinline muted></video>
 
     <script src="script.js"></script>
